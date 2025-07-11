@@ -1,4 +1,4 @@
-/*1. selectors and Basic properties */ 
+/*1. selectors and Basic properties */
 * {
 
     padding: 0;
@@ -8,7 +8,43 @@ body {
     font-family: "Poppins", Times, serif ;
     background-color: #f7f7f7;
     color: #333;
+}
 
+.header {
+    background:#50f577;
+    padding: 1.5rem 0;
+    color: white;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-links a {
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-links a:hover {
+    color: #9c9c9c;
 }
 .hero {
     padding: 100px;
@@ -306,4 +342,50 @@ button {
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+    padding: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer-section a {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+}
+.learn-more-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+}
+.learn-more-btn:hover {
+    background-color: #218838;
 }
